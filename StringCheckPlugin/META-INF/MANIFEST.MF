@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: StringCheckPlugin
+Bundle-SymbolicName: StringCheckPlugin;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.core.resources,
+ org.eclipse.core.runtime,
+ org.eclipse.ui,
+ org.eclipse.jface.text,
+ org.eclipse.ui.editors
+Automatic-Module-Name: StringCheckPlugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.eclipse.jdt.internal.ui.javaeditor,
+ org.eclipse.ui.part
